@@ -4,6 +4,26 @@ property of Monotype Imaging and/or its suppliers. You may not attempt to copy, 
 redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
 Imaging with any questions regarding Web Fonts:  http://www.fonts.com
 */
+
+::-webkit-scrollbar{
+    width: 11px;
+}
+
+::-webkit-scrollbar-track{
+    width: 10px;
+    background: white;
+    border-left: 0 solid white;
+    border-right: 0 solid white;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #a3a3adb8;
+    width: 0;
+    height: 15%;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
 @font-face {
   font-family: "AvenirNext";
   font-stye: normal;
